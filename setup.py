@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
-long_description = 'A very concise language for handling numbers - read the docs at https://www.github.com/nayakrujul/numlang-9ee9'
+long_description = 'A better version of typing - read the docs at https://www.github.com/nayakrujul/better-typing'
 
 setup(
-  name = 'numlang-9ee9',
-  version = '3.0',
+  name = 'better-typing',
+  version = '0.1',
   license='Apache',
-  description = 'A very concise language for handling numbers.',
+  description = 'A better version of typing',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
-  url = 'https://github.com/nayakrujul/numlang-9ee9',
-  download_url = 'https://github.com/nayakrujul/numlang-9ee9/archive/refs/tags/v_01.tar.gz',
-  keywords = ['language'],
+  url = 'https://github.com/nayakrujul/better-typing',
+  download_url = 'https://github.com/nayakrujul/better-typing/archive/refs/tags/v_01.tar.gz',
+  keywords = ['typing', 'type'],
   install_requires=[
       ],
   classifiers=[
@@ -29,10 +29,5 @@ setup(
   ],
   long_description=long_description,
   long_description_content_type='text/x-rst',
-  packages = find_packages(),
-  entry_points = {
-    'console_scripts': [
-      'numlang = numlang.nl:from_console'
-    ]
-  }
+  packages = find_packages()
 )
