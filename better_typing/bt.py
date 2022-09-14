@@ -5,6 +5,8 @@ class Union:
         self.types = type1, type2
     def __str__(self):
         return self.types[0].__name__ + ' | ' + self.types[1].__name__
+    def __repr__(self):
+        return str(self)
     @property
     def __name__(self):
         return str(self)
@@ -25,6 +27,8 @@ class Type:
             return f'{self.dtype.__name__}[{str(self.of.__name__)}]'
         else:
             return str(self.dtype.__name__)
+    def __repr__(self):
+        return str(self)
     def __getitem__(self, cls):
         return Type(self, cls)
     def __or__(self, other):
