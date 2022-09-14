@@ -4,7 +4,7 @@ long_description = 'A better version of typing - read the docs at https://www.gi
 
 setup(
   name = 'better-typing',
-  version = '0.1',
+  version = '1.0',
   license='Apache',
   description = 'A better version of typing',
   author = 'Rujul Nayak',
