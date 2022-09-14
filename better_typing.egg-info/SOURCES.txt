@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+better_typing/__init__.py
+better_typing/bt.py
+better_typing.egg-info/PKG-INFO
+better_typing.egg-info/SOURCES.txt
+better_typing.egg-info/dependency_links.txt
+better_typing.egg-info/top_level.txt
