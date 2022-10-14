@@ -6,7 +6,7 @@ A better version of typing in Python.
 From PyPI:
 
 ```zsh
-$ pip install better-python
+$ pip install better-typing
 ```
 
 ## Usage
